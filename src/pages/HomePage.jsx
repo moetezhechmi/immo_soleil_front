@@ -7,6 +7,8 @@ import Footer from '../components/Footer';
 import logo from '../assets/logo.jpg';
 import { Facebook, Instagram, Phone, Mail, MapPin, Briefcase, CheckCircle } from 'lucide-react';
 
+import heroDjerba from '../assets/hero_djerba.png';
+
 function HomePage() {
     const [isExpertModalOpen, setIsExpertModalOpen] = React.useState(false);
 
@@ -106,7 +108,7 @@ function HomePage() {
                             }}></div>
                             <div style={{ position: 'relative', zIndex: 1 }}>
                                 <img
-                                    src="/src/assets/hero_djerba.png"
+                                    src={heroDjerba}
                                     alt="L'art de vivre à Djerba"
                                     className="about-main-img"
                                     style={{
